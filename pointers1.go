@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func zer(xPtr *int) {
-	*xPtr = 0
+func zer(xP *int) {
+	*xP = 2
 
 }
 
