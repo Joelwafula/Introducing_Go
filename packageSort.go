@@ -6,12 +6,17 @@ import (
 	"sort"
 )
 
+//	type Person struct {
+//		Name string
+//		Age  int
+//	}
 type Person struct {
 	Name string
 	Age  int
 }
 type ByName []Person
 
+// types
 func (ps ByName) Len() int {
 	return len(ps)
 
